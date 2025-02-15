@@ -30,3 +30,15 @@ const someone = {
 }
 
 console.log(someone.address.country)
+
+
+//For in loop is used to access the properties of an object
+const person2 = {
+    firstName: "Lara",
+    lastName: "Dami",
+    age:13
+}
+
+for(let prop in person2){
+    console.log(prop + ":" + " " + person2[prop])
+}
