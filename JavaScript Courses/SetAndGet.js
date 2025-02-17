@@ -12,11 +12,26 @@ class Person{
     set personName(newName){
         this.name = newName
     }
+
+    get personAge(){
+        return this.age
+    }
+
+    set personAge(newAge){
+        this.age = newAge
+    }
 }
 
-const person1 = new Person("David Ojo", 23)
-console.log(person1.personName);
+// const person1 = new Person("David Ojo", 23)
+// console.log(person1.personName);
 
-person1.personName = "Samuel Ojo"
-console.log(person1.personName);
+// person1.personName = "Samuel Ojo"
+// console.log(person1.personName);
+
+// console.log(person1.age)
+
+const person2 = new Person("Aliko Dangote", 50)
+console.log(person2)
+
+
 
