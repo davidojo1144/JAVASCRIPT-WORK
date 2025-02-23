@@ -9,3 +9,5 @@ else{
 
 let item = cartItems.map((items)=>items)
 console.log("These are the items you have in your cart " + item)
+
+
