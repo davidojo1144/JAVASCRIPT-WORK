@@ -6,8 +6,7 @@ fetch("https://reqres.in/api/users/", {
     body: JSON.stringify({
         name: "first user"
     })
-})
-.then(res => {
+}).then(res => {
     return res.json()
 })
 .then(data => console.log(data))
