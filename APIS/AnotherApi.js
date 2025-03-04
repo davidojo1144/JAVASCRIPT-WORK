@@ -1,4 +1,6 @@
-const api = 'https://jsonplaceholder.typicode.com/todos/'
+
+const city = "London"
+const api = `http://api.weatherstack.com/current?access_key=YOUR_ACCESS_KEY&query=${city}`
 
 //fetching data using async await
 const fetchingData = async () => {
