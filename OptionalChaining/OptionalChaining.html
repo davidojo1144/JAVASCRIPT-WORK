@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional Chaining</title>
+</head>
+<body>
+    <script>
+        const person = {
+            name: "Joseph",
+            age: 12,
+            // vehincle: {
+            //     year: 2012
+            // }
+        }
+
+        const vehincleYear = person?.vehincle?.year ?? "Vehincle year not found"
+        console.log(vehincleYear);
+    </script>
+</body>
+</html>
