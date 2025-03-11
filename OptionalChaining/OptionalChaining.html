@@ -9,13 +9,16 @@
     <script>
         const person = {
             name: "Joseph",
+           // secondName: "Dan",
             age: 12,
-            // vehincle: {
-            //     year: 2012
-            // }
+            vehincle: {
+                year: 2012
+            }
         }
 
         const vehincleYear = person?.vehincle?.year ?? "Vehincle year not found"
+        const name2 = person?.secondName ?? "There is no second name"
+        console.log(name2)
         console.log(vehincleYear);
     </script>
 </body>
