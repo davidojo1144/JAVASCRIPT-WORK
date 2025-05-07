@@ -28,7 +28,10 @@ div.addEventListener("click", (event)=> {
 })
 
 h2.addEventListener("click", (event)=> {
-    event.target.textContent = "New page"
+    const myText = event.target.textContent
+    myText === "Main page" ? 
+    event.target.textContent = "New page" :
+    event.target.textContent = "Main page"
 })
 
 }
