@@ -22,8 +22,8 @@ mymaindiv.addEventListener("click", (event)=> {
 
 div.addEventListener("click", (event)=> {
     //event.stopPropagation()
-    mymaindiv.classList.toggle("blue")
-    mymaindiv.classList.toggle("pink")
+    div.classList.toggle("red")
+    div.classList.toggle("green")
     //div.style.backgroundColor = "green"
 })
 
