@@ -1,3 +1,26 @@
 body{
-    background-color: aqua;
+    background-color: whitesmoke;
+    
+}
+
+.page{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.seconddiv{
+    background-color: red;
+    padding: 10px;
+}
+
+.maindiv{
+    background-color: blue;
+    padding: 20px;
+}
+
+
+.seconddiv h2{
+    color: white;
+    text-align: center;
+    cursor: pointer;
 }
