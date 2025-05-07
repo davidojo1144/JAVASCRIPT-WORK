@@ -1,3 +1,14 @@
+document.addEventListener("readystatechange", (event)=> {
+    if (event.target.readyState === "complete") {
+        console.log("This is complete");
+    }
+    initApp()
+})
+
+
+
+
+const initApp = () => {
 const mymaindiv = document.querySelector("#mymaindiv")
 const div = mymaindiv.querySelector("div")
 const h2 = div.querySelector("h2")
@@ -15,3 +26,5 @@ div.addEventListener("click", (event)=> {
 h2.addEventListener("click", (event)=> {
     event.target.textContent = "New page"
 })
+
+}
