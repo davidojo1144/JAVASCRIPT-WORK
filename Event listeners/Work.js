@@ -34,4 +34,13 @@ h2.addEventListener("click", (event)=> {
     event.target.textContent = "Main page"
 })
 
+const nav = document.querySelector("nav")
+nav.addEventListener("mouseover", (event)=> {
+    event.target.classList.add("mouse")
+})
+
+nav.addEventListener("mouseout", (event)=> {
+    event.target.classList.remove("mouse")
+})
+
 }
