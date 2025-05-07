@@ -24,3 +24,8 @@ body{
     text-align: center;
     cursor: pointer;
 }
+
+
+.pink{
+    background-color: pink;
+}

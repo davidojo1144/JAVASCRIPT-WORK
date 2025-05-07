@@ -16,12 +16,15 @@ const h2 = div.querySelector("h2")
 
 
 mymaindiv.addEventListener("click", (event)=> {
-    mymaindiv.style.backgroundColor = "orange"
+    mymaindiv.classList.toggle("blue")
+    mymaindiv.classList.toggle("pink")
 })
 
 div.addEventListener("click", (event)=> {
     //event.stopPropagation()
-    div.style.backgroundColor = "green"
+    mymaindiv.classList.toggle("blue")
+    mymaindiv.classList.toggle("pink")
+    //div.style.backgroundColor = "green"
 })
 
 h2.addEventListener("click", (event)=> {
