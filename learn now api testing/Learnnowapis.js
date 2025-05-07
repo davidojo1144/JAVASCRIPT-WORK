@@ -1,4 +1,4 @@
-const API_URL = "https://learning-management-systems-10.onrender.com/api/register/"
+const API_URL = "https://learning-management-systems-10.onrender.com/api/profile/"
 
 const fetchData = async()=> {
     try {
